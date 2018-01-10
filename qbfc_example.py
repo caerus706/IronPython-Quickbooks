@@ -59,3 +59,7 @@ for x in range(0, InvAdjQueryRes.Detail.Count):
     except:
         print("Could not read")
         pass
+
+# use dir() to study com object
+# for example
+# dir(InvAdjQueryRes.Detail) was used to discover there is a Count method available
